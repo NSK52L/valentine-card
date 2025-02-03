@@ -33,12 +33,26 @@
                 <div id="rec"></div>
             </div>
         </div>
+        <div class="buttons">
+            <button id="openBtn">Open Card</button>
+            <button id="closeBtn">Close Card</button>
+        </div>
     </div>
 
     <script>
-        // Add event listener to ensure the animation works on touch devices (mobile)
-        document.getElementById('card').addEventListener('click', function () {
-            this.classList.toggle('animate');
+        const openBtn = document.getElementById('openBtn');
+        const closeBtn = document.getElementById('closeBtn');
+        const heart1 = document.getElementById('heart1');
+        const heart2 = document.getElementById('heart2');
+
+        openBtn.addEventListener('click', () => {
+            heart1.style.animation = 'openLeft 2s ease-in-out forwards';
+            heart2.style.animation = 'openRight 2s ease-in-out forwards';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            heart1.style.animation = 'closeLeft 2s ease-in-out forwards';
+            heart2.style.animation = 'closeRight 2s ease-in-out forwards';
         });
     </script>
 </body>
