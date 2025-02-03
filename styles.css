@@ -84,35 +84,33 @@ body {
   animation: closeRight 2s ease-in-out forwards;
 }
 
-/* Hover effect for desktop */
-@media (min-width: 769px) {
-  #card:hover #heart1 {
-    animation: openLeft 2s ease-in-out forwards;
-  }
-
-  #card:hover #heart2 {
-    animation: openRight 2s ease-in-out forwards;
-  }
+#card:hover #heart1 {
+  animation: openLeft 2s ease-in-out forwards;
 }
 
-/* Disable hover effect on mobile devices */
-@media (max-width: 768px) {
-  #card:hover #heart1, #card:hover #heart2 {
-    animation: none;
-  }
+#card:hover #heart2 {
+  animation: openRight 2s ease-in-out forwards;
+}
 
-  #card {
-    touch-action: manipulation; /* Allow touch events */
-  }
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
 
-  /* Trigger the animation when the card is tapped on mobile */
-  #card:active #heart1 {
-    animation: openLeft 2s ease-in-out forwards;
-  }
+.buttons button {
+  background-color: #D32F2F;
+  color: white;
+  font-family: 'Poiret One', Segoe UI Light, cursive;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-  #card:active #heart2 {
-    animation: openRight 2s ease-in-out forwards;
-  }
+.buttons button:hover {
+  background-color: #C2185B;
 }
 
 @keyframes closeLeft {
