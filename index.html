@@ -34,5 +34,12 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // Add event listener to ensure the animation works on touch devices (mobile)
+        document.getElementById('card').addEventListener('click', function () {
+            this.classList.toggle('animate');
+        });
+    </script>
 </body>
 </html>
