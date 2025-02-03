@@ -112,6 +112,15 @@ body {
   }
 }
 
+/* Add class to trigger animation on touch devices */
+#card.animate #heart1 {
+  animation: openLeft 2s ease-in-out forwards;
+}
+
+#card.animate #heart2 {
+  animation: openRight 2s ease-in-out forwards;
+}
+
 @keyframes closeLeft {
   from { transform: rotateY(0deg); }
   to { transform: rotateY(180deg); }
