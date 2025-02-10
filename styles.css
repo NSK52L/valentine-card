@@ -1,9 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
 body {
-  background-color: #ddd;
-  font-family: 'Poiret One', Segoe UI Light, cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
 }
+
+.daisy {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: relative;
+  margin: 10px;
+}
+
+.daisy::before,
+.daisy::after {
+  content: '';
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.daisy::after {
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+}
+
+
+
+
 
 #card {
   position: absolute;
