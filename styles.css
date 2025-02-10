@@ -75,12 +75,12 @@ body {
   margin-left: 16px;
 }
 
-#Ghofrane h3{
-    display: block;
-    margin-top: 10px;  /* Adds space below the main message */
-    font-size: 1.5em;  /* Adjusts size */
-    font-weight: normal; /* Optional: makes it less bold */
-    color: red; /* Optional: Adds a romantic touch */
+#partner-name {
+  font-size: 18px;  /* Adjust text size */
+  color: #FFC0CB;  /* Soft pink color */
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
 }
 
 #card #heart1 {
