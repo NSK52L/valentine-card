@@ -75,7 +75,7 @@ body {
   margin-left: 16px;
 }
 
-#Ghofrane {
+#Ghofrane h3{
     display: block;
     margin-top: 10px;  /* Adds space below the main message */
     font-size: 1.5em;  /* Adjusts size */
