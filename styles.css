@@ -75,12 +75,12 @@ body {
   margin-left: 16px;
 }
 
-#Ghofrane {
-  font-size: 18px;  /* Adjust text size */
-  color: #FFC0CB;  /* Soft pink color */
-  font-weight: bold;
-  margin-top: 5px;
-  text-align: center;
+#message h3, #name {
+    font-size: 20px; /* Same size as Happy Valentine's Day */
+    color: #FFC0CB;  /* Soft pink */
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
 }
 
 #card #heart1 {
