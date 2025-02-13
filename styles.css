@@ -4,8 +4,8 @@ body {
   background-color: #ddd;
   font-family: 'Poiret One', Segoe UI Light, cursive;
   background-image: url('daisy_flower.png');
-  background-repeat: repeat; /* Tiles the image */
-  background-size: 10%; /* Keeps the original size */
+  background-repeat: space; /* Tiles the image */
+  background-size: 5%; /* Keeps the original size */
 }
 
 #card {
@@ -101,6 +101,27 @@ body {
 
 #card:hover #heart2 {
   animation: openRight 2s ease-in-out forwards;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #D32F2F;
+  color: white;
+  font-family: 'Poiret One', Segoe UI Light, cursive;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #C2185B;
 }
 
 @keyframes closeLeft {
