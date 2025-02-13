@@ -3,6 +3,9 @@
 body {
   background-color: #ddd;
   font-family: 'Poiret One', Segoe UI Light, cursive;
+  background-image: url('daisy_flower.png');
+  background-repeat: repeat; /* Tiles the image */
+  background-size: auto; /* Keeps the original size */
 }
 
 #card {
@@ -139,9 +142,5 @@ body {
 @keyframes openRight {
   from { transform: rotateX(180deg); }
   to { transform: rotateX(0deg) rotateZ(180deg); }
-
-  background-image: url('daisy_flower.png');
-    background-repeat: repeat; /* Tiles the image */
-    background-size: auto; /* Keeps the original size */
 
 }
