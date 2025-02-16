@@ -17,7 +17,7 @@ body {
   margin-left: -230px;
 }
 
-.good-morning {
+#card .good-morning {
   text-align: center;
   font-size: 24px;
   color: #D32F2F;
