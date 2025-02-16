@@ -22,7 +22,7 @@ body {
   text-align: center;
   font-size: 28px;  /* Increased font size */
   font-weight: bold; /* Makes the text thicker */
-  color: rgb(255, 221, 51);
+  color: #F8D44C;
   font-family: 'Poiret One', Segoe UI Light, cursive;
   margin-top: 50px; /* Lowered by increasing margin */
 }
