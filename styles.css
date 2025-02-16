@@ -6,7 +6,7 @@ body {
   background-image: url('daisy_flower.png');
   background-repeat: space; 
   background-size: 5%; 
-  /* background-position: bottom center; */
+  background-position: bottom center; 
 }
 
 #card {
