@@ -22,7 +22,7 @@ body {
   text-align: center;
   font-size: 28px;  /* Increased font size */
   font-weight: bold; /* Makes the text thicker */
-  color: rgb(255, 105, 180); /* A deeper pink for better visibility */
+  color: rgb(255, 192, 203);
   font-family: 'Poiret One', Segoe UI Light, cursive;
   margin-top: 200px; /* Lowered by increasing margin */
 }
