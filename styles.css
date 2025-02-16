@@ -24,7 +24,7 @@ body {
   font-weight: bold; /* Makes the text thicker */
   color: #D32F2F;
   font-family: 'Poiret One', Segoe UI Light, cursive;
-  margin-top: 50px; /* Lowered by increasing margin */
+  margin-top: 0px; /* Lowered by increasing margin */
 }
 
 #card .heart {
