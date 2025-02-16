@@ -17,7 +17,7 @@ body {
   margin-left: -230px;
 }
 
-#card .good-morning h4 {
+#card .good-morning {
   text-align: center;
   font-size: 28px;  /* Increased font size */
   font-weight: bold; /* Makes the text thicker */
