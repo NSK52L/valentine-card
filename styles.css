@@ -5,7 +5,8 @@ body {
   font-family: 'Poiret One', Segoe UI Light, cursive;
   background-image: url('daisy_flower.png');
   background-repeat: space; /* Tiles the image */
-  background-size: 5%; /* Keeps the original size */
+  background-size: 5%; 
+  background-position: bottom center;
 }
 
 #card {
